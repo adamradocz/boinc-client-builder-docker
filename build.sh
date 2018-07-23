@@ -1,5 +1,5 @@
 #!/bin/bash
-IMAGE_TAG="build-boinc-client"
+IMAGE_TAG="boinc-client-builder"
 
 docker build -t $IMAGE_TAG .
 ID=$(docker create $IMAGE_TAG)
