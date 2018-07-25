@@ -1,15 +1,16 @@
-###########################################################
-# Build insturction:                                      #
-#    - https://boinc.berkeley.edu/trac/wiki/BuildSystem   #
-#    - https://boinc.berkeley.edu/trac/wiki/CompileClient #
-#                                                         #
-# Folder structure:                                       #
-# /                                                       #
-# |-- build/                                              #
-# |-- workspace/                                          #
-#     |-- boinc/                                          #
-#                                                         #
-###########################################################
+#################################################################
+# Build insturction:                                            #
+#    - https://boinc.berkeley.edu/trac/wiki/BuildSystem         #
+#    - https://boinc.berkeley.edu/trac/wiki/CompileClient       #
+#    - http://boinc.berkeley.edu/wiki/Compiling_the_core_client #
+#                                                               #
+# Folder structure:                                             #
+# /                                                             #
+# |-- build/                                                    #
+# |-- workspace/                                                #
+#     |-- boinc/                                                #
+#                                                               #
+#################################################################
 
 FROM ubuntu:18.04
 
