@@ -45,7 +45,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     make && \
     cd client && \
     checkinstall -Dy --pkgname=boinc-client --pkgversion=$BOINC_VERSION --install=no --nodoc && \
-    cp *.deb /build/ && \
+    mv *.deb /build/ && \
 # Cleaning up
     cd /build  && \
     rm -R /workspace && \
